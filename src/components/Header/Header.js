@@ -5,7 +5,7 @@ import './Header.css';
 function Header() {
   return (
     <div className="Header">
-      <img className="image" src={img} height="200px" width="200px" />
+      <img className="image" src={img} height="200px" width="200px" alt="profile" />
       <div className="profile">
         <h1 className="hello">Hello!</h1>
         <h2>I am Sejal Jain</h2>

@@ -3,7 +3,7 @@ import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Technologies from './components/Technologies /Technologies';
 import ContactForm from './components/ContactForm/ContactForm';
-import { colors } from './components/background/bg';
+import './components/background/bg';
 
 function App() {
   return (
