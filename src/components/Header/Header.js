@@ -9,6 +9,7 @@ function Header() {
       <div className="profile">
         <h1 className="hello">Hello!</h1>
         <h2>I am Sejal Jain</h2>
+        <h3 className="web">Web Developer</h3>
       </div>
     </div>
   );

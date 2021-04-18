@@ -5,6 +5,9 @@
   justify-content: space-between;
   padding: 60px;
 }
+.web {
+  color: #f25f4c;
+}
 .profile {
   color: #fffffe;
   text-align: right;
@@ -21,4 +24,16 @@ img {
 }
 .hello {
   font-size: 40px;
+}
+.ml1 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.ml1 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
 }
