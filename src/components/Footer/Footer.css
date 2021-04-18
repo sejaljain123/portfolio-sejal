@@ -1,0 +1,27 @@
+.contact {
+  color: whitesmoke;
+  background: transparent;
+}
+.Footer {
+  background: transparent;
+  padding: 25px 50px;
+}
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+a.facebook {
+  color: #4968ad;
+}
+
+a.twitter {
+  color: #49a1eb;
+}
+
+a.instagram {
+  color: #3f729b;
+}
+.links {
+  padding: 20px;
+}

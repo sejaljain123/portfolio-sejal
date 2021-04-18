@@ -1,0 +1,24 @@
+.Header {
+  display: flex;
+  flex-flow: row wrap;
+
+  justify-content: space-between;
+  padding: 60px;
+}
+.profile {
+  color: #fffffe;
+  text-align: right;
+  flex: 50%;
+  font-family: serif;
+  padding-top: 10px;
+  margin: 20px;
+  font-size: 20px;
+
+  margin-right: auto;
+}
+img {
+  border-radius: 50%;
+}
+.hello {
+  font-size: 40px;
+}

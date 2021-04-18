@@ -1,0 +1,15 @@
+.Tech {
+  text-align: center;
+  color: var(--text-color);
+
+  font-size: 50px;
+}
+svg {
+  height: 60px;
+  width: 60px;
+  margin: 20px;
+}
+.Technologies {
+  width: 50%;
+  margin: 10px auto;
+}
