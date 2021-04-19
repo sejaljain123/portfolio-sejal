@@ -1,32 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import './Theme.css';
-const themes = [
-  {
-    background: '#fef6e4',
-    buttoncolor: '#f582ae',
-    buttontext: '#001858',
-    textcolor: '#001858',
-  },
-  {
-    background: '#0f0e17',
-    buttoncolor: '#ff8906',
-    buttontext: '#fffffe',
-    textcolor: '#fffffe',
-  },
-];
 function Theme() {
+  const themes = [
+    {
+      background: '#fef6e4',
+      buttoncolor: '#f582ae',
+      buttontext: '#001858',
+      textcolor: '#001858',
+    },
+    { background: '#0f0e17', buttoncolor: '#ff8906', buttontext: '#fffffe', textcolor: '#fffffe' },
+  ];
   const [index, setIndex] = useState(0);
-  const changeTheme = (index) => {
-    const { background, textcolor, buttoncolor, buttontext } = themes[index];
-
-    const body = document.querySelector('body');
-    const style = body.style;
-
-    style.setProperty('--background-color', background);
-    style.setProperty('--button-text', buttontext);
-    style.setProperty('--text-color', textcolor);
-    style.setProperty('--button-color', buttoncolor);
-  };
 
   useEffect(() => {
     const changeTheme = (index) => {
@@ -40,10 +24,8 @@ function Theme() {
       style.setProperty('--text-color', textcolor);
       style.setProperty('--button-color', buttoncolor);
     };
-
     changeTheme(index);
-  }, [index, changeTheme]);
-
+  }, [index]);
   return (
     <div className="themes">
       <label for="toggle">
