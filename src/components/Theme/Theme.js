@@ -24,6 +24,18 @@ function Theme() {
   };
 
   useEffect(() => {
+    const changeTheme = (index) => {
+      const { background, textcolor, buttoncolor, buttontext } = themes[index];
+
+      const body = document.querySelector('body');
+      const style = body.style;
+
+      style.setProperty('--background-color', background);
+      style.setProperty('--button-text', buttontext);
+      style.setProperty('--text-color', textcolor);
+      style.setProperty('--button-color', buttoncolor);
+    };
+
     changeTheme(index);
   }, [index, changeTheme]);
 
