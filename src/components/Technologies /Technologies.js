@@ -37,7 +37,7 @@ function Technologies() {
         <SiCplusplus fill="#00599C" />
         <SiDjango fill="#092E20" />
         <SiGit fill="#F05032" />
-        <SiGithub fill="#ffffff" />
+        <SiGithub fill="var(--text-color)" />
         <SiGnome fill="#4A86CF" />
         <SiLinux fill="#FCC624" />
         <SiUbuntu fill="#E95420" />

@@ -47,9 +47,11 @@ const ContactForm = () => {
             onChange={updateInput}
             value={formData.message || ''}
           ></textarea>
-          <button className="button" onClicktype="submit">
-            Submit
-          </button>
+          <div class="wrap">
+            <button className="button" onClicktype="submit">
+              Submit
+            </button>
+          </div>
         </form>
       </div>
     </div>

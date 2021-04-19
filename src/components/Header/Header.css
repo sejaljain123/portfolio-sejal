@@ -9,7 +9,7 @@
   color: #f25f4c;
 }
 .profile {
-  color: #fffffe;
+  color: var(--text-color);
   text-align: right;
   flex: 50%;
   font-family: serif;
