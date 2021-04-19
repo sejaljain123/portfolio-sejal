@@ -12,6 +12,9 @@ a.social {
   display: inline-block;
   color: white;
 }
+a.social:hover {
+  color: var(--button-color);
+}
 
 .links {
   padding: 20px;
