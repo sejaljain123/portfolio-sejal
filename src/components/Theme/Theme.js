@@ -25,7 +25,7 @@ function Theme() {
       style.setProperty('--button-color', buttoncolor);
     };
     changeTheme(index);
-  }, [index]);
+  }, [index, themes]);
   return (
     <div className="themes">
       <label for="toggle">
