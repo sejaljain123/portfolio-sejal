@@ -22,9 +22,11 @@ function Theme() {
     style.setProperty('--text-color', textcolor);
     style.setProperty('--button-color', buttoncolor);
   };
+
   useEffect(() => {
     changeTheme(index);
   }, [index, changeTheme]);
+
   return (
     <div className="themes">
       <label for="toggle">
