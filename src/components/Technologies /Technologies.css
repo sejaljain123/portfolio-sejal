@@ -13,3 +13,14 @@ svg {
   width: 50%;
   margin: 10px auto;
 }
+
+@media screen and (min-width: 0px) and (max-width: 400px) {
+  #Technologies {
+    display: block;
+  }
+}
+@media screen and (min-width: 401px) and (max-width: 1024px) {
+  #Technologies {
+    display: none;
+  } /* hide it elsewhere */
+}

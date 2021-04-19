@@ -37,3 +37,13 @@ img {
   padding-right: 0.05em;
   padding-bottom: 0.15em;
 }
+@media screen and (min-width: 0px) and (max-width: 400px) {
+  #Header {
+    display: block;
+  }
+}
+@media screen and (min-width: 401px) and (max-width: 1024px) {
+  #Header {
+    display: none;
+  } /* hide it elsewhere */
+}

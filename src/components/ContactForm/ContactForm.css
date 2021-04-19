@@ -49,3 +49,13 @@ button {
   border: none;
   margin-top: 20px;
 }
+@media screen and (min-width: 0px) and (max-width: 400px) {
+  #container {
+    display: block;
+  }
+}
+@media screen and (min-width: 401px) and (max-width: 1024px) {
+  #Contact {
+    display: none;
+  } /* hide it elsewhere */
+}
