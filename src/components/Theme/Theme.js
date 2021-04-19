@@ -1,5 +1,4 @@
-import { faThemeisle } from '@fortawesome/free-brands-svg-icons';
-import React, { useEffect, useImperativeHandle, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './Theme.css';
 function Theme() {
   const themes = [
