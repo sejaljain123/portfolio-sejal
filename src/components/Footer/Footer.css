@@ -17,12 +17,7 @@ a.social {
   padding: 20px;
 }
 @media screen and (min-width: 0px) and (max-width: 400px) {
-  #Footer {
+  .Footer {
     display: block;
   }
-}
-@media screen and (min-width: 401px) and (max-width: 1024px) {
-  #Footer {
-    display: none;
-  } /* hide it elsewhere */
 }
