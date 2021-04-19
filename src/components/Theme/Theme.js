@@ -42,7 +42,7 @@ function Theme() {
     };
 
     changeTheme(index);
-  }, [themes, index, changeTheme]);
+  }, [index, changeTheme]);
 
   return (
     <div className="themes">
