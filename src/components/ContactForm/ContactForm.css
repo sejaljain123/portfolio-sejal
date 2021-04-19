@@ -21,6 +21,7 @@
   background-color: transparent;
   resize: vertical;
   outline: none;
+  color: var(--background-color);
 }
 .Contact {
   width: 100%;
@@ -30,9 +31,9 @@
   justify-content: center;
 }
 .container {
-  max-width: 50%;
+  max-width: 100%;
   width: 40%;
-
+  margin: auto;
   position: relative;
   background: var(--text-color);
   border-radius: 20px;
@@ -162,12 +163,13 @@
   }
 }
 
-@media screen and (min-width: 0px) and (max-width: 400px) {
+@media screen and (min-width: 0px) and (max-width: 600px) {
   .button {
     padding: 5px 20px 5px;
   }
   .container {
-    width: 50%;
+    width: 80%;
     padding: 20px;
+    margin: auto;
   }
 }

@@ -1,5 +1,5 @@
 .contact {
-  color: whitesmoke;
+  color: var(--text-color);
   background: transparent;
 }
 .Footer {
@@ -10,7 +10,7 @@ a.social {
   margin: 0 0.5rem;
   transition: transform 250ms;
   display: inline-block;
-  color: white;
+  color: var(--text-color);
 }
 a.social:hover {
   color: var(--button-color);
