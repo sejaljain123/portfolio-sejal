@@ -6,7 +6,7 @@
   padding: 60px;
 }
 .web {
-  color: #f25f4c;
+  color: var(--button-color);
 }
 .profile {
   color: var(--text-color);
