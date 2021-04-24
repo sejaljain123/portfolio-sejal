@@ -2,6 +2,7 @@ import React from 'react';
 import './Technologies.css';
 import { AiFillHtml5 } from 'react-icons/ai';
 import { FaCss3, FaReact } from 'react-icons/fa';
+import express from './express.svg';
 import {
   SiRedux,
   SiJavascript,
@@ -31,6 +32,7 @@ function Technologies() {
         <FaReact fill="#61DAFB" />
         <SiRedux fill="#764ABC" />
         <SiNodeDotJs fill="#339933" />
+        <img className="express" src={express} alt="reactlogo" />
         <SiMysql fill="#4479A1" />
         <SiC fill="#A8B9CC" />
         <SiPython fill="#3776AB" />
