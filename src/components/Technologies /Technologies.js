@@ -20,6 +20,11 @@ import {
   SiGooglecloud,
   SiVisualstudiocode,
   SiFirebase,
+  SiTypescript,
+  SiBootstrap,
+  SiMongodb,
+  SiPostman,
+  SiBabel,
 } from 'react-icons/si';
 function Technologies() {
   return (
@@ -28,12 +33,16 @@ function Technologies() {
       <div className="icons">
         <AiFillHtml5 fill="#E34F26" />
         <FaCss3 fill="#1572B6" />
+        <SiBabel fill="#F9DC3E" />
+        <SiBootstrap fill="#7952B3" />
         <SiJavascript fill="#F7DF1E" />
+        <SiTypescript fill="#3178C6" />
         <FaReact fill="#61DAFB" />
         <SiRedux fill="#764ABC" />
         <SiNodeDotJs fill="#339933" />
         <img className="express" src={express} alt="reactlogo" />
         <SiMysql fill="#4479A1" />
+        <SiMongodb fill="#47A248" />
         <SiC fill="#A8B9CC" />
         <SiPython fill="#3776AB" />
         <SiCplusplus fill="#00599C" />
@@ -44,7 +53,7 @@ function Technologies() {
         <SiLinux fill="#FCC624" />
         <SiUbuntu fill="#E95420" />
         <SiGooglecloud fill="#4285F4" />
-        <SiVisualstudiocode fill="#007ACC" />
+        <SiPostman fill="#FF6C37" />
         <SiFirebase fill="#FFCA28" />
       </div>
     </div>
