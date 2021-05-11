@@ -18,7 +18,6 @@ import {
   SiUbuntu,
   SiNodeDotJs,
   SiGooglecloud,
-  SiVisualstudiocode,
   SiFirebase,
   SiTypescript,
   SiBootstrap,
