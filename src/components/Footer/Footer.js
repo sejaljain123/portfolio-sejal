@@ -12,25 +12,42 @@ function Footer() {
   return (
     <div className="Footer">
       <h2 className="contact">Contact Me</h2>
-      <div className="links">
-        <a
-          href="https://www.facebook.com/profile.php?id=100039726875356"
-          className="facebook social"
-        >
-          <FontAwesomeIcon icon={faFacebook} size="2x" fill="#ffffff" />
-        </a>
-        <a href="https://www.instagram.com/sejaljain2001" className="instagram social">
-          <FontAwesomeIcon icon={faInstagram} size="2x" fill="#ffffff" />
-        </a>
-        <a href="https://twitter.com/SejalJa68705849?s=08" className="twitter social ">
-          <FontAwesomeIcon icon={faTwitter} size="2x" fill="#ffffff" />
-        </a>
-        <a href="https://github.com/sejaljain123" className="github social">
-          <FontAwesomeIcon icon={faGithub} size="2x" fill="#ffffff" />
-        </a>
-        <a href="https://www.linkedin.com/in/sejal-jain-5a7536194" className="linkedin social">
-          <FontAwesomeIcon icon={faLinkedin} size="2x" fill="#ffffff" />
-        </a>
+      <div className="block">
+        <div className="button-block">
+          <div className="social">
+            <a
+              href="https://www.facebook.com/profile.php?id=100039726875356"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FontAwesomeIcon icon={faFacebook} size="2x" fill="#ffffff" className="icon" />
+            </a>
+          </div>
+          <div className="social">
+            <a href="https://www.instagram.com/sejaljain2001" target="_blank" rel="noreferrer">
+              <FontAwesomeIcon icon={faInstagram} size="2x" fill="#ffffff" className="icon" />
+            </a>
+          </div>
+          <div className="social">
+            <a href="https://twitter.com/SejalJa68705849?s=08" target="_blank" rel="noreferrer">
+              <FontAwesomeIcon icon={faTwitter} size="2x" fill="#ffffff" className="icon" />
+            </a>
+          </div>
+          <div className="social">
+            <a href="https://github.com/sejaljain123" target="_blank" rel="noreferrer">
+              <FontAwesomeIcon icon={faGithub} size="2x" fill="#ffffff" className="icon" />
+            </a>
+          </div>
+          <div className="social">
+            <a
+              href="https://www.linkedin.com/in/sejal-jain-5a7536194"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FontAwesomeIcon icon={faLinkedin} size="2x" fill="#ffffff" className="icon" />
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );

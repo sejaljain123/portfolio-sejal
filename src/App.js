@@ -5,6 +5,7 @@ import Technologies from './components/Technologies /Technologies';
 import ContactForm from './components/ContactForm/ContactForm';
 import './components/background/bg';
 import Theme from './components/Theme/Theme';
+// import Project from './components/Project/Project';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Theme />
       <Header />
       <Technologies />
+      {/* <Project /> */}
       <ContactForm />
       <Footer />
     </div>
